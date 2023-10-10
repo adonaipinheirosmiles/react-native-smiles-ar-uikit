@@ -4,14 +4,17 @@ import { $COLORS } from '../../utils';
 export const styles = StyleSheet.create({
   container: {
     width: '100%',
-    height: 60,
-    backgroundColor: $COLORS.primary,
-    borderRadius: 4,
-    justifyContent: 'center',
-    alignItems: 'center',
   },
-  text: {
-    color: '#FFF',
-    fontWeight: 'bold',
+  textInput: {
+    height: 60,
+    width: '100%',
+    borderColor: $COLORS.gray,
+    borderWidth: 1,
+    borderRadius: 4,
+    padding: 10,
+  },
+  errorMessage: {
+    color: 'red',
+    fontSize: 12,
   },
 });
