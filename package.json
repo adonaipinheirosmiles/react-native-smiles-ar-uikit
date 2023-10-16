@@ -1,6 +1,6 @@
 {
   "name": "react-native-smiles-ar-uikit",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Biblioteca de UIKit Smiles AR",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
