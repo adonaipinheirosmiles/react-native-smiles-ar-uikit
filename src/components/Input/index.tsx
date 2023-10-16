@@ -21,8 +21,12 @@ export const Input = memo(({ error, style, ...params }: InputProps) => {
         style={StyleSheet.flatten([styles.textInput, style])}
         {...params}
       />
-      <Separator size={5} vertical />
-      {error && <Text style={styles.errorMessage}>* {error}</Text>}
+      {error && (
+        <>
+          <Separator size={5} vertical />
+          <Text style={styles.errorMessage}>* {error}</Text>
+        </>
+      )}
     </View>
   );
 });
